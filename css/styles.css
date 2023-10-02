@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Mollie glaston', sans-serif;
+    src: url('fonts/FontsFree-Net-Mollie-Glaston.ttf') format('ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+.header {
+    border-bottom:1px #FFF solid;
+}
+
+.header__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 34px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    color: #FFF;
+    font-family: 'Mollie glaston';
+    font-size: 35.725px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.5%;
+    letter-spacing: 4.287px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo__icon {
+    width: 56px;
+    height: 56px;
+    margin-right: 10px;
+}
+
+.header__list {
+    display: flex;
+    gap: 47px;
+    list-style-type: none;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135.5%;
+    letter-spacing: -0.32px;
+    text-transform: capitalize;
+}
+
+.header__button {
+    border-radius: 6px;
+    padding: 16px;
+    background: #FFF;
+    margin-left: 16px;
+}
+
+.header__button > img {
+    width: 24px;
+    height: 24px;
+}
