@@ -21,7 +21,7 @@
 }
 
 .container {
-    max-width: 1320px;
+    /* max-width: 1320px; */
     margin: 0 120px;
 }
 
@@ -132,7 +132,7 @@
 .testy-chips__chips-image {
     position: absolute;
     top: 287px;
-    left: 349px;
+    left: 360px;
     z-index: -2;
 }
 
@@ -238,3 +238,240 @@
     margin-top: 496px;
 }
 
+.review__container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review__bg-color-stats {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    background: #FFF0DE;
+    width: 694px;
+    height: 242px;
+}
+
+.review__stats {
+    display: flex;
+    padding-top: 50px;
+}
+
+.review__info {
+    margin-right: 76px;
+    max-width: 116px;
+}
+
+.review__info__number {
+    color: #1E2438;
+    font-family: Scotch Deck;
+    font-size: 62px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.review__info__text {
+    color: #1E2438;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.review__descr {
+    position: relative;
+    padding: 14px 0;
+    width: 536px;
+    margin-left: 90px;
+}
+
+.descr-title {
+    color: #1E2438;
+    font-family: Scotch Deck;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.hr-line {
+    margin: 20px 0;
+    background: #D9D9D9;
+    height: 2px;
+}
+
+.descr-text {
+    color: #1E2438;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+    text-transform: capitalize;
+}
+
+.review__descr__line {
+    width: 536px;
+}
+
+.review__stars {
+    position: absolute;
+    top: 52px;
+    width: 55px;
+    height: 74px;
+}
+
+.overview__container {
+    margin-top: 125px;
+    position: relative;
+}
+
+.overview__title {
+    width: 578px;
+    color: #1E2438;
+    font-family: Scotch Deck;
+    font-size: 100px;
+    font-weight: 500;
+    text-transform: capitalize; 
+}
+
+.overview__chips-orange {
+    position: absolute;
+    top: -25px;
+    right: 0;
+    width: 493px;
+    height: 489px;
+}
+
+.overview__health {
+    display: flex;
+    margin-top: 65px;
+}
+
+.overview__chips-green {
+    margin-right: 99px;
+    width: 295px;
+    height: 318px;
+}
+
+.btn-white {
+    padding: 14px 28px;
+    border-radius: 10px;
+    border: 2px solid #B1464A;
+    color: #B1464A;
+    background-color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 135.5%;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.overview__btn-start__arrow {
+    margin-left: 16px;
+}
+
+.overview__descr {
+    position: relative;
+    margin-top: 75px;
+    padding: 14px 0;
+}
+
+.potato {
+    margin-top: 110px;
+    background: #FFF0DE;
+    padding: 90px 0;
+}
+
+.potato__container {
+    display: flex;
+}
+
+.potato__content {
+    display: flex;
+    flex-direction: column;
+    width: 694px;
+}
+
+.potato__descr {
+    max-width: 545px;
+}
+
+.potato__potatoes-img {
+    margin-right: 39px;
+}
+
+.potato__descr__title {
+    color: #1E2438;
+    font-family: Scotch Deck;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.potato__background-rect {
+    margin-top: auto;
+    width: 100%;
+    height: 187px;
+    background: radial-gradient(86.9% 86.9% at 50% 50%, #F4777C 0%, #7D0F13 100%);
+}
+
+.potato__background-rect__img {
+    display: block;
+    margin: 0 auto;
+}
+
+.awesome-chips {
+    margin-top: 174px;
+}
+
+.awesome-chips__container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.awesome-chips__title {
+    color: #1E2438;
+    font-family: Scotch Deck;
+    font-size: 74px;
+    font-weight: 500;
+    width: 441px;
+    text-transform: capitalize;
+}
+
+.awesome-chips__img {
+    position: absolute;
+    top: -124px;
+    left: 357px;
+    z-index: -1;
+}
+
+.awesome-chips__overview {
+    padding: 16px;
+    width: 352px;
+}
+
+.awesome-chips__overview__title {
+    color: #1E2438;
+    font-family: Scotch Deck;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.awesome-chips__overview__text {
+    margin-top: 12px;
+}
+
+.awesome__overview__btn-start {
+    margin-top: 30px;
+}
