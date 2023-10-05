@@ -9,7 +9,16 @@
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
             rel="stylesheet"
         />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Hind:wght@300;500&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="css/styles.css" />
+        <link rel="shortcut icon" href="img/icons/favicon.png" />
         <title>Document</title>
     </head>
     <body>
@@ -30,7 +39,7 @@
                     <span class="header__logo__title">Potato</span>
                 </div>
                 <nav class="header__navbar">
-                    <ul class="header__list">
+                    <ul class="header__list list">
                         <li class="header__item">
                             <a class="header__link" href="#">Home</a>
                         </li>
@@ -88,9 +97,21 @@
                         >
                     </div>
                     <ul class="testy-chips__quality-list">
-                        <li class="testy-chips__quality-type">Low</li>
-                        <li class="testy-chips__quality-type">Medium</li>
-                        <li class="testy-chips__quality-type">Best</li>
+                        <li class="testy-chips__quality-type">
+                            <a href="#" class="testy-chips__quality-link"
+                                >Low</a
+                            >
+                        </li>
+                        <li class="testy-chips__quality-type">
+                            <a href="#" class="testy-chips__quality-link"
+                                >Medium</a
+                            >
+                        </li>
+                        <li class="testy-chips__quality-type">
+                            <a href="#" class="testy-chips__quality-link"
+                                >Best</a
+                            >
+                        </li>
                     </ul>
                     <button class="testy-chips__btn-item">
                         <span class="testy-chips__btn-item__text"
@@ -277,6 +298,166 @@
                     </div>
                 </div>
             </section>
+            <section class="newsletter">
+                <div class="newsletter__container container">
+                    <div class="newsletter__content">
+                        <h2 class="newsletter__title">Join our newsletter</h2>
+                        <p class="newsletter__text">
+                            Contrary to popular belief, Lorem Ipsum is not
+                            simply random text. It has roots in a piece of
+                            classical Latin literature <br />
+                            from 45 BC, making.
+                        </p>
+                        <form class="newsletter__input-bar" method="get">
+                            <input
+                                type="text"
+                                id="newsletter__input-bar__field"
+                                placeholder="For latest update send mail"
+                            />
+                            <button
+                                class="newsletter__input-bar__btn-subscribe"
+                            >
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
         </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__main">
+                    <div class="footer__left-section">
+                        <div class="footer__logo header__logo">
+                            <img
+                                src="img\icons\potato.svg"
+                                alt="footer__logo__icon header__logo__icon"
+                                class="footer__logo__icon header__logo__icon"
+                            />
+                            <span
+                                class="footer__logo__title header__logo__title"
+                                >Potato</span
+                            >
+                        </div>
+                        <div class="footer__text">
+                            Clarity gives you the blocks and components you need
+                            to create a truly professional website.
+                        </div>
+                        <img
+                            src="img\icons\social-medias.svg"
+                            alt="social-medias"
+                            class="footer__social-medias"
+                        />
+                    </div>
+                    <div class="footer__nav-company footer__nav">
+                        <h4 class="footer__nav-company__title nav__title">
+                            Company
+                        </h4>
+                        <ul class="footer__nav-company__list nav__list list">
+                            <li class="footer__nav-company__item nav__item">
+                                <a
+                                    href="#"
+                                    class="footer__nav-company__link nav__link"
+                                    >About</a
+                                >
+                            </li>
+                            <li class="footer__nav-company__item nav__item">
+                                <a
+                                    href="#"
+                                    class="footer__nav-company__link nav__link"
+                                    >Features</a
+                                >
+                            </li>
+                            <li class="footer__nav-company__item nav__item">
+                                <a
+                                    href="#"
+                                    class="footer__nav-company__link nav__link"
+                                    >Works</a
+                                >
+                            </li>
+                            <li class="footer__nav-company__item nav__item">
+                                <a
+                                    href="#"
+                                    class="footer__nav-company__link nav__link"
+                                    >Career</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav-help footer__nav">
+                        <h4 class="footer__nav-help__title nav__title">Help</h4>
+                        <ul class="footer__nav-help__list nav__list list">
+                            <li class="footer__nav-help__item nav__item">
+                                <a
+                                    href="#"
+                                    class="footer__nav-help__link nav__link"
+                                    >Custom Support</a
+                                >
+                            </li>
+                            <li class="footer__nav-help__item nav__item">
+                                <a
+                                    href="#"
+                                    class="footer__nav-help__link nav__link"
+                                    >Delivery Details</a
+                                >
+                            </li>
+                            <li class="footer__nav-help__item nav__item">
+                                <a
+                                    href="#"
+                                    class="footer__nav-help__link nav__link"
+                                    >Terms & Conditions</a
+                                >
+                            </li>
+                            <li class="footer__nav-help__item nav__item">
+                                <a
+                                    href="#"
+                                    class="footer__nav-help__link nav__link"
+                                    >Career</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav-resources footer__nav">
+                        <h4 class="footer__nav-resources__title nav__title">
+                            Resources
+                        </h4>
+                        <ul class="footer__nav-resources__list nav__list list">
+                            <li class="footer__nav-help__item nav__item">
+                                <a
+                                    href="#"
+                                    class="footer__nav-resources__link nav__link"
+                                    >Free EBooks</a
+                                >
+                            </li>
+                            <li class="footer__nav-resources__item nav__item">
+                                <a
+                                    href="#"
+                                    class="footer__nav-resources__link nav__link"
+                                    >Development Tutorial</a
+                                >
+                            </li>
+                            <li class="footer__nav-resources__item nav__item">
+                                <a
+                                    href="#"
+                                    class="footer__nav-resources__link nav__link"
+                                    >How To - Blog</a
+                                >
+                            </li>
+                            <li class="footer__nav-resources__item nav__item">
+                                <a
+                                    href="#"
+                                    class="footer__nav-resourcesp__link nav__link"
+                                    >Youtube Playlist</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__hr-line"></div>
+                <div class="footer__copyright">
+                    © Copyright 2022, All Rights Reserved by Falcon Thought
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

@@ -1,12 +1,14 @@
-@font-face {
-    font-family: 'Mollie glaston', sans-serif;
-    src: url('fonts/FontsFree-Net-Mollie-Glaston.ttf') format('ttf');
-}
+@import url('../fonts/Scotch Deck/Skotch-Deck.css');
+@import url('../fonts/Mollieglaston/Mollieglaston.css');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.list {
+    list-style-type: none;
 }
 
 .background-image {
@@ -21,7 +23,6 @@
 }
 
 .container {
-    /* max-width: 1320px; */
     margin: 0 120px;
 }
 
@@ -38,7 +39,7 @@
     font-family: 'Mollie glaston';
     font-size: 35.725px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     line-height: 135.5%;
     letter-spacing: 4.287px;
     text-transform: capitalize;
@@ -52,10 +53,11 @@
     margin-right: 10px;
 }
 
+
+
 .header__list {
     display: flex;
     gap: 47px;
-    list-style-type: none;
 }
 
 .header__link {
@@ -86,7 +88,7 @@
 .testy-chips__title {
     color: #FFF;
     text-align: center;
-    font-family: Scotch Deck;
+    font-family: 'Scotch Deck';
     font-size: 110px;
     font-weight: 700;
     line-height: 135.5%;
@@ -146,12 +148,18 @@
     right: 0px;
     height: auto;
     list-style-type: none;
+}
+
+.testy-chips__quality-link {
     color: #FFF;
     font-family: Poppins;
     font-size: 20px;
+    font-style: normal;
     font-weight: 400;
+    line-height: 135.5%;
     letter-spacing: -0.4px;
     text-transform: capitalize;
+    text-decoration: none;
 }
 
 .testy-chips__btn-item {
@@ -265,7 +273,7 @@
 
 .review__info__number {
     color: #1E2438;
-    font-family: Scotch Deck;
+    font-family: 'Scotch Deck';
     font-size: 62px;
     font-weight: 500;
     text-transform: capitalize;
@@ -288,7 +296,7 @@
 
 .descr-title {
     color: #1E2438;
-    font-family: Scotch Deck;
+    font-family: 'Scotch Deck';
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -331,7 +339,7 @@
 .overview__title {
     width: 578px;
     color: #1E2438;
-    font-family: Scotch Deck;
+    font-family: 'Scotch Deck';
     font-size: 100px;
     font-weight: 500;
     text-transform: capitalize; 
@@ -347,6 +355,7 @@
 
 .overview__health {
     display: flex;
+    height: 317px;
     margin-top: 65px;
 }
 
@@ -378,7 +387,6 @@
 .overview__descr {
     position: relative;
     margin-top: 75px;
-    padding: 14px 0;
 }
 
 .potato {
@@ -407,7 +415,7 @@
 
 .potato__descr__title {
     color: #1E2438;
-    font-family: Scotch Deck;
+    font-family: 'Scotch Deck';
     font-size: 80px;
     font-style: normal;
     font-weight: 500;
@@ -439,7 +447,7 @@
 
 .awesome-chips__title {
     color: #1E2438;
-    font-family: Scotch Deck;
+    font-family: 'Scotch Deck';
     font-size: 74px;
     font-weight: 500;
     width: 441px;
@@ -460,7 +468,7 @@
 
 .awesome-chips__overview__title {
     color: #1E2438;
-    font-family: Scotch Deck;
+    font-family: 'Scotch Deck';
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -474,4 +482,171 @@
 
 .awesome__overview__btn-start {
     margin-top: 30px;
+}
+
+.newsletter {
+    margin-top: 172px;
+}
+
+.newsletter__container {
+    background: #B1464A;
+    padding: 100px 170px;
+    margin: 0 120px;
+}
+
+.newsletter__title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Scotch Deck';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 115.5%;
+    letter-spacing: -0.96px;
+    text-transform: capitalize;
+}
+
+.newsletter__text {
+    color: #FFF;
+    text-align: center;
+    width: 612px;
+    margin: 0 auto;
+    margin-top: 16px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.5%;
+    letter-spacing: -0.36px;
+    opacity: 0.7;
+}
+
+.newsletter__input-bar {
+    display: flex;
+    align-items: center;
+    width: 526px;
+    height: 70px;
+    border-radius: 6px;
+    background: #FFF;
+    margin: 32px auto 0 auto;
+    padding: 0 12px 0 32px;
+}
+
+#newsletter__input-bar__field {
+    flex-grow: 1;
+    border: none;
+    color: rgba(30, 36, 56, 0.51);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 213%;
+    text-transform: capitalize;
+}
+
+#newsletter__input-bar__field:focus {
+    outline: none;
+}
+
+.newsletter__input-bar__btn-subscribe {
+    padding: 11px 40px;
+    border-radius: 6px;
+    background: linear-gradient(180deg, #E47479 17.59%, #B1464A 95.19%);
+    box-shadow: 0px 5px 22px 0px rgba(253, 94, 95, 0.60);
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    border: 0;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 90px;
+    background: #1E2438;
+    padding: 100px 0 40px 0;
+}
+
+.footer__main {
+    display: flex;
+    max-height: 207px;
+}
+
+.footer__text {
+    color: #FFF;
+    font-family: Hind;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29.709px;
+    text-transform: capitalize;
+    margin-top: 8px;
+}
+
+.footer__left-section {
+    width: 344px;
+}
+
+.footer__social-medias {
+    margin-top: 31px;
+    cursor: pointer;
+}
+
+.footer__hr-line {
+    margin: 40px 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.footer__copyright {
+    color: #FFF;
+    text-align: center;
+    font-family: Hind;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29.709px;
+    text-transform: capitalize;
+}
+
+.footer__nav-company {
+    margin-left: 170px;
+}
+
+.footer__nav-help {
+    margin-left: 149px;
+}
+
+.footer__nav-resources {
+    margin-left: auto;
+}
+
+.nav__title {
+    color: #FFF;
+    font-family: Hind;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29.709px;
+    text-transform: capitalize;
+}
+
+.nav__list {
+    margin-top: 18px;
+    height: 159px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav__link {
+    color: #FFF;
+    font-family: Hind;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22.7px;
+    text-transform: capitalize;
+    text-decoration: none;
 }
