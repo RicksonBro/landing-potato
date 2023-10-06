@@ -432,6 +432,10 @@
     text-transform: capitalize;
 }
 
+.potato__content {
+    width: 100%;
+}
+
 .potato__background-rect {
     margin-top: auto;
     width: 100%;
