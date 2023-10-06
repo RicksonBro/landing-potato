@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Scotch Deck';
-    src: local('Scotch Deck Bold'), local('Scotch-Deck-Bold'),
-        url('ScotchDeck-Bold.woff2') format('woff2'),
-        url('ScotchDeck-Bold.woff') format('woff'),
-        url('ScotchDeck-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-  }

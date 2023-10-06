@@ -11,6 +11,11 @@
     list-style-type: none;
 }
 
+.header {
+    position: relative;
+    border-bottom: 1px #FFF solid;
+}
+
 .background-image {
     position: absolute;
     top: 0;
@@ -19,7 +24,7 @@
 }
 
 .header {
-    border-bottom: 1px #FFF solid;
+    padding-top: 34px;
 }
 
 .container {
@@ -27,7 +32,7 @@
 }
 
 .header__container {
-    margin-top: 34px;
+    margin-top: 0;
     margin-bottom: 24px;
     display: flex;
     justify-content: space-between;
@@ -85,6 +90,10 @@
     width: 24px;
 }
 
+.testy-chips__container {
+    position: relative;
+}
+
 .testy-chips__title {
     color: #FFF;
     text-align: center;
@@ -125,8 +134,8 @@
 
 .testy-chips__curve-line {
     position: absolute;
-    top: 322px;
-    right: 298px;
+    top: 208px;
+    right: 183px;
     width: 119.432px;
     height: 107.292px;  
 }
@@ -144,8 +153,8 @@
     transform: rotate(-90deg);
     position: absolute;
     height: 231px;
-    top: 300px;
-    right: 0px;
+    top: 140px;
+    right: -105px;
     height: auto;
     list-style-type: none;
 }
